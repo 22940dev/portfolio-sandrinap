@@ -9,7 +9,7 @@
     "dev": "sapper dev",
     "build": "sapper build --legacy",
     "export": "sapper export --legacy",
-    "start": "node __sapper__/build",
+    "start": "node __sapper__/build"
   },
   "dependencies": {
     "@splitbee/web": "^0.2.4",
