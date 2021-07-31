@@ -10,7 +10,7 @@ const app = polka()
   .use(
     compression({ threshold: 0 }), 
     sirv('static', { dev }), 
-    sapper.middleware())
+    sapper.middleware()
   )
   
  console.log('PORT is', PORT)
